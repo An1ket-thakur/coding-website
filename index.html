@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coding world</title>
+    <link rel="stylesheet" href="/tutorial/my_project/codingwebsite.css">
+    <link rel="stylesheet" href="/tutorial/my_project/codingwebsite.js">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+    <div class="heading"> <h1>welcome to Abhinav kumar website</h1></div>
+    <div class="left">
+        <img src="/tutorial/project/project3/codinglogo.jpg" alt="">
+    </div>
+    <div class="right">
+        <button class="button"><a href="">LOGIN</a> </button><button class="button"><a href="#">SIGNUP</a> </button>
+    </div>
+    <div class="search">
+        <input class="search-txt"  type="text" name="search"placeholder="Tpye to search">
+       <a class="search-btn" href="#" ><i class="fas fa-search"></i></a>
+    
+    </div>
+
+   
+    <nav class="navbar">
+        <ul class="navigation bar">
+            <li><a href="#">HOME</a> </li>
+            <li><a href="tutorial">TutorialS</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <div class="time">
+        <span id="time"></span>
+        </div>
+   <div class="container">
+       <h2>Fill the form</h2>
+       <form action="notation.php">
+       <div class="formgroup">
+        <input type="text"name=''placeholder="ENTER YOUR NAME">
+       </div>
+       <div class="formgroup">
+        <input type="text"name=''placeholder="ENTER YOUR DOB">
+        <div class="formgroup"><input type="text"name=''placeholder="ENTER YOUR CONTACT NUMBER"></div>
+        <div class="formgroup"><input type="text"name=''placeholder="ENTER YOUR E-MAIL"></div>
+        <button id="btn">submit</button>
+       </div>
+
+   </div>
+</form>
+<div class="tutorial">
+    <h3>TutorialS we provide for you.</h3>
+     <a href="https://www.w3schools.com/cs/index.php"><img src="/tutorial/project/project3/csymbol.png" alt="" target="_blank"></a>
+    <a href="https://www.w3schools.com/css/default.asp"> <img src="/tutorial/project/project3/css.png" alt="" ></a>
+     <a href="https://www.w3schools.com/html/default.asp"><img src="/tutorial/project/project3/HTML.png" alt=""></a>
+    <a href="https://www.w3schools.com/cpp/default.asp"><img src="/tutorial/project/project3/c++.jpg" alt=""></a> 
+    </div>
+</div>
+<div class="about">
+    <a id="about" href="">About us</a>
+    <h4>About us</h4>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maxime dolorum esse nobis itaque autem inventore modi officiis maiores, possimus aliquam porro ipsum voluptate quisquam amet officia, eveniet molestiae, quasi omnis id ex quis. Nostrum, aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident sequi nulla ea velit minima cupiditate magni itaque aliquam veritatis, nobis, cum dolorum.</p>
+</div>
+<footer id="footer">All Right reserves</footer>
+<script>
+    function displaytime(){
+    time =new Date();
+    console.log(time);
+    document.getElementById('time').innerHTML=time;
+}
+setInterval(displaytime,1000);
+
+</script>
+
+</body>
+</html>

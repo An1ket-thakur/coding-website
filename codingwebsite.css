@@ -1,0 +1,200 @@
+body{
+    background-color:black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.left img{
+    margin: 20px;
+    padding: 20px;
+    width: 90px;
+    height: 90px;
+    
+}
+.right {
+    
+    display: inline;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.button{
+    padding-right: 50px;
+   background-color: black;
+   color: blanchedalmond;
+   height: 40px;
+   border: 2px solid red;
+   border-radius: 30px;
+   border-bottom: blue;
+   justify-items: center;
+}
+.nav{
+    display: inline;
+}
+
+.navigation{
+    display: flex;
+    color: blanchedalmond;
+    padding: 34px 34px;
+    /* border: 2px solid red; */
+    border-radius: 50px;
+    margin: 75px;
+}
+.navigation li{
+    padding: 34px 100px;
+    border: 2px solid red;
+    border-radius: 30px;
+    border-bottom: red;
+}
+.navigation li  a{
+    color: seashell;
+text-decoration: none;
+}
+.navigation li a :hover{
+    color: skyblue;
+    cursor: pointer;
+}
+.search{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(233, 13, 13);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+/* color: blanchedalmond;
+border: 2px solid red;
+border-radius: 30px;
+padding: 2px;
+margin: 40px;
+width: 180px;
+background-color: white;
+justify-items: center;
+border-bottom: yellow; */
+}
+.search-btn{
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: black;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    /* transition: 0.4s;  */
+}  
+.search:hover > .search-txt{
+ width: 240px;
+padding: 0px 6px; 
+
+}  
+.search:hover > .search-btn{
+    background-color: black;
+}
+#searchtext{
+    color: yellow;
+}
+ .search-txt{
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: yellow;
+    font-size: 16px;
+    transition: 0.4s ;
+    line-height: 40px;
+    width: 0px;
+    transition: .5s;
+}
+#time{
+    color: red;
+    font-weight: bold;
+    border: 2px solid red;
+    padding:  2px 40px;
+    margin: 50px 360px;
+}
+.container{
+    margin:  24px 402px;
+    padding: 5px 40px;
+    width: 30%;
+    border-radius: 30px;
+    border:2px solid red;
+    
+}
+.container h2{
+    color:wheat;
+    text-align: center;
+}
+.formgroup {
+    text-align: center;
+    margin: 1px;
+justify-content: center;
+} 
+#btn{
+    background-color: black;
+    color: burlywood;
+    border: 2px solid red;
+    border-radius: 34px;
+    margin: 30px;
+    padding: 2px 30px;
+border-bottom: burlywood;
+}
+#btn :hover{
+    cursor: pointer;
+}
+.tutorial h3{
+color: burlywood;
+text-align: center;
+font-size: 50px;
+font-weight: bold;
+}
+.tutorial img{
+    width: 200px;
+    border: 2px solid rgb(13, 187, 144);
+    margin: 40px;
+}
+.heading{
+    color: red;
+    width: 550px;
+     justify-items: center;
+    text-align: center;
+    position: relative;
+    /* animation: animation-name animation-duration animation timing function animation delay animation iteration count animationfillmode; */
+animation: heading1 5s ease-out 2s infinite alternate;
+
+}
+@keyframes heading1{
+    0%{
+top: 0px;
+left: 0px;
+    }
+    25%{
+top: 0px;
+left: 200px;
+    }
+    75%{
+top: 0px;
+left: 200px;
+    }
+    10%{
+top: 0px;
+left: 0px;
+    }
+}
+.about h4{
+color: wheat;
+text-align: center;
+font-size: 30px;
+}
+.about p{
+    color: wheat;
+}
+#footer{
+color: wheat;
+text-align: center;
+bottom: 40px;
+}
