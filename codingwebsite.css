@@ -34,7 +34,7 @@ html{
 
 .navigation{
     display: flex;
-    color: blanchedalmond;
+    color: #ffebcd;
     padding: 34px 34px;
     /* border: 2px solid red; */
     border-radius: 50px;
@@ -42,16 +42,16 @@ html{
 }
 .navigation li{
     padding: 34px 100px;
-    border: 2px solid red;
+    border: 5px solid red;
     border-radius: 30px;
     border-bottom: red;
 }
 .navigation li  a{
-    color: seashell;
+    color: skyblue;
 text-decoration: none;
 }
 .navigation li a :hover{
-    color: skyblue;
+    color: #8ecae6;
     cursor: pointer;
 }
 .search{
@@ -113,7 +113,7 @@ padding: 0px 6px;
 #time{
     color: red;
     font-weight: bold;
-    border: 2px solid red;
+    border: 5px solid red;
     padding:  2px 40px;
     margin: 50px 360px;
 }
@@ -122,7 +122,7 @@ padding: 0px 6px;
     padding: 5px 40px;
     width: 30%;
     border-radius: 30px;
-    border:2px solid red;
+    border:5px solid red;
     
 }
 .container h2{
@@ -154,7 +154,7 @@ font-weight: bold;
 }
 .tutorial img{
     width: 200px;
-    border: 2px solid rgb(13, 187, 144);
+    border: 5px solid rgb(13, 187, 144);
     margin: 40px;
 }
 .heading{
